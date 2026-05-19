@@ -7,7 +7,7 @@ CXXFLAGS = -std=c++11 -Wall
 SOURCES = heap.cpp examheap.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 
-TARGET = testheap
+TARGET = examheap
 
 all: $(TARGET)
 
