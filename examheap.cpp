@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
         Heap h;
         srand(time(0));
         int arand = rand() % 1000;
-        int brand = arand -10;
+        int brand = arand - 10;
         h.push(arand);
         assert(h.top()==arand);
         h.pop();
@@ -110,7 +110,5 @@ int main(int argc, char *argv[]) {
     }
     cout << "PASSED\n";
 
-
     return 0;
-
 }
